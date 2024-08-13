@@ -42,7 +42,7 @@ p{
     font-weight: 500;
     
 }
-#wholeImgContainer{
+.wholeImgContainer{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -61,6 +61,7 @@ p{
     border-radius: 50% 50%;
     height: 35px;
     width: 35px;
+    cursor: pointer;
 }
 #text p{
     margin: 0 15px;
@@ -104,11 +105,12 @@ p{
 .icon-facebook, .icon-twitter, .icon-pinterest{
     background-color: hsl(217, 19%, 35%);
 }
-.icon-share-active{
+#icon-share-active{
     border-radius: 50% 50%;
     height: 35px;
     width: 35px;
     background-color: hsl(214, 17%, 51%);
+    cursor: pointer;
 }
 @media(min-width: 1400px){
     .container{
@@ -134,7 +136,7 @@ p{
         font-size: 1.2em;
         margin-bottom: 0px;
     }
-    #wholeImgContainer{
+    .wholeImgContainer{
        margin-top: 45px;
        margin-bottom: 10px;
     }
